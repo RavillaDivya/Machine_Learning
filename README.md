@@ -10,4 +10,4 @@ Includes 3 NLP projects that I worked on.
 
 1. Hidden Markov Model part-of-speech tagger for Italian, Japanese, and a surprise language.
 2. Natural language reasoner to decide whether the precondition will enable or disable the statement.
-3. TeRi Chatbot to keep a traveller company during his journey.
+3. TerRi Chatbot to keep a traveller company during his journey.
