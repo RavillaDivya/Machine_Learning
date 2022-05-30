@@ -1,0 +1,518 @@
+{
+  "entities": {
+    "cuisine": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "mexican"
+        },
+        {
+          "synonyms": [],
+          "value": "indian"
+        },
+        {
+          "synonyms": [],
+          "value": "chinese"
+        },
+        {
+          "synonyms": [],
+          "value": "korean"
+        },
+        {
+          "synonyms": [],
+          "value": "italian"
+        }
+      ],
+      "matching_strictness": 0.7,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "casual": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "hey i am bored"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me a story"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you sing me a song"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i am feeling a little lonely right now"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you talk to me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you tell me a joke"
+            }
+          ]
+        }
+      ]
+    },
+    "news": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "hey what is happening around me today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "do you have any updates for me today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me what is going on in the city today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "brief me on the latest news today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you tell me what is happening today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want to know what is new today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are some important updates for today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you tell me what is going on around me today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are the latest happenings in the city"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you brief me on what is happening near me today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are some hot topics of discussion on the news"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey show me some latest happenings near me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "could you provide me with latest news today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are the latest headlines today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "any recent events on the news today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "important news updates"
+            }
+          ]
+        }
+      ]
+    },
+    "places": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Do you know of any nearby tourist attractions?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am looking for places to visit nearby"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "any recommendations for site seeing spots nearby"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are some fun things to do over the weekend"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "are there any good places to visit nearby"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are some cool spots to visit near me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i am looking for a place to chill any recommendations"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "are there any fun places to visit nearby"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i am bored do you know where i can go today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me something interesting about the place i am at"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are some interesting places to visit near me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "do you know of any fun places to visit nearby"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you tell me something more about this place"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you tell me some interesting facts about this place"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are some cool facts about this place"
+            }
+          ]
+        }
+      ]
+    },
+    "restaurant": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "do you have any good restaurant recommendations"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am hungry, are there any good places to eat"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you suggest some places to eat "
+            },
+            {
+              "entity": "cuisine",
+              "slot_name": "cuisine",
+              "text": "mexican"
+            },
+            {
+              "text": " food"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "places to eat "
+            },
+            {
+              "entity": "cuisine",
+              "slot_name": "cuisine",
+              "text": "Chinese"
+            },
+            {
+              "text": " food"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "any suggestions for good indian food"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are the most popular restaurants near by"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "any cool eateries around here"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i am looking for places to eat some authentic chinese food do you have any recommendations"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "are there any good outlets for snacks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "which is the nearest burger place around here"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm hungry"
+            }
+          ]
+        }
+      ]
+    },
+    "weather": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what is the weather like today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is it hot outside"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is it like outside today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey, how does the day look today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is it cold outside"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you help me look up the forecast"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to look up the weather"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I would like to know the weather"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Weather forecast"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the forecast today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the weather today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Will it rain today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the weather now"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "may i know the weather"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is it sunny outside"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is it raining now"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

@@ -1,0 +1,6 @@
+geocoder==1.38.1
+pyttsx3==2.90
+requests==2.24.0
+setuptools==60.5.0
+snips_nlu==0.20.2
+SpeechRecognition==3.8.1

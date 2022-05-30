@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "tag" : "greeting",
+      "patterns" : ["Hi there", "Hello", "Hi", "Hi Terri", "Hey", "Is anyone there"],
+      "responses" : ["Hi, how can I help you today?", "Hello, nice to meet you", "Hi there, how can I assist you today"],
+      "context": [""]
+    },
+    {
+      "tag" : "goodbye",
+      "patterns" : ["Bye", "Bye Bye", "Goodbye", "Bye Terri", "Catch you later", "See ya", "Until next time"],
+      "responses" : ["Bye, travel safely!", "I hope I was helpful today", "Wish you a great rest of the day"],
+      "context": [""]
+    },
+    {
+      "tag" : "thanks",
+      "patterns" : ["Thank you", "Thanks", "Thanks a lot", "Appreciate it", "That was helpful", "Thanks for your help"],
+      "responses" : ["Glad I could be of service", "You are welcome", "My pleasure", "Happy to help", "Anytime"],
+      "context": [""]
+    },
+    {
+      "tag" : "noanswer",
+      "patterns" : [],
+      "responses" : ["I'm sorry, I didn't quite get that. Could you please repeat?", "I'm sorry, I didn't understand you.", "Can you please give me some more information"],
+      "context": [""]
+    }
+  ]
+}

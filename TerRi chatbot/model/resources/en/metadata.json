@@ -1,0 +1,16 @@
+{
+  "author": "Rosa Stern",
+  "description": "Language resources for English",
+  "email": "rosa.stern@snips.ai",
+  "gazetteers": [],
+  "language": "en",
+  "license": "Apache License, Version 2.0",
+  "name": "snips_nlu_en",
+  "noise": "noise",
+  "snips_nlu_version": ">=0.1.0,<1.0.0",
+  "stems": null,
+  "stop_words": "stop_words",
+  "url": "https://snips-nlu.readthedocs.io",
+  "version": "0.2.3",
+  "word_clusters": []
+}

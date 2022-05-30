@@ -1,0 +1,107 @@
+#weather intent
+---
+type: intent
+name: weather
+utterances:
+  - what is the weather like today
+  - is it hot outside
+  - what is it like outside today
+  - hey, how does the day look today
+  - is it cold outside
+  - Can you help me look up the forecast
+  - I want to look up the weather
+  - I would like to know the weather
+  - Weather forecast
+  - What is the forecast today
+  - What is the weather today
+  - Will it rain today
+  - what is the weather now
+  - may i know the weather
+  - is it sunny outside
+  - is it raining now
+
+
+#news intent
+---
+type: intent
+name: news
+utterances:
+  - hey what is happening around me today
+  - do you have any updates for me today
+  - tell me what is going on in the city today
+  - brief me on the latest news today
+  - could you tell me what is happening today
+  - i want to know what is new today
+  - what are some important updates for today
+  - can you tell me what is going on around me today
+  - what are the latest happenings in the city
+  - can you brief me on what is happening near me today
+  - what are some hot topics of discussion on the news
+  - hey show me some latest happenings near me
+  - could you provide me with latest news today
+  - what are the latest headlines today
+  - any recent events on the news today
+  - important news updates
+
+
+#casual intent
+---
+type: intent
+name: casual
+utterances:
+  - hey i am bored
+  - tell me a story
+  - could you sing me a song
+  - i am feeling a little lonely right now
+  - can you talk to me
+  - could you tell me a joke
+
+# restaurant intent
+---
+type: intent
+name: restaurant
+utterances:
+  - do you have any good restaurant recommendations
+  - I am hungry, are there any good places to eat
+  - Can you suggest some places to eat [cuisine](mexican) food
+  - places to eat [cuisine](Chinese) food
+  - any suggestions for good indian food
+  - what are the most popular restaurants near by
+  - any cool eateries around here
+  - i am looking for places to eat some authentic chinese food do you have any recommendations
+  - are there any good outlets for snacks
+  - which is the nearest burger place around here
+  - I'm hungry
+
+# places intent
+---
+type: intent
+name: places
+utterances:
+  - Do you know of any nearby tourist attractions?
+  - I am looking for places to visit nearby
+  - any recommendations for site seeing spots nearby
+  - what are some fun things to do over the weekend
+  - are there any good places to visit nearby
+  - what are some cool spots to visit near me
+  - i am looking for a place to chill any recommendations
+  - are there any fun places to visit nearby
+  - i am bored do you know where i can go today
+  - tell me something interesting about the place i am at
+  - what are some interesting places to visit near me
+  - do you know of any fun places to visit nearby
+  - can you tell me something more about this place
+  - can you tell me some interesting facts about this place
+  - what are some cool facts about this place
+
+# Cuisine entity
+---
+type: entity
+name: cuisine
+matching_strictness: 0.7
+values:
+  - mexican
+  - indian
+  - chinese
+  - korean
+  - italian
