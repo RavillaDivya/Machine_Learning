@@ -9,3 +9,4 @@ Includes 4 CV projects that I worked on, reports for each project explain the pr
 Includes 3 NLP projects that I worked on.
 
 1. Hidden Markov Model part-of-speech tagger for Italian, Japanese, and a surprise language.
+2. Developed a natural language reasoner to decide whether the precondition will enable or disable the statement.
